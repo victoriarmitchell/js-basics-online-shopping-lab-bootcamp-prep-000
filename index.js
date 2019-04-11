@@ -66,7 +66,7 @@ function placeOrder(cardNumber) {
     return `Sorry, we don't have a credit card on file for you.`
   }
   else {
-    return `Your total cost is $${cartTotal}, which will be charged to the card ${cardNumber}.`
+    return `Your total cost is \$${cartTotal}, which will be charged to the card ${cardNumber}.`
   }
   getCart();
 }
