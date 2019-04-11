@@ -55,7 +55,7 @@ function removeFromCart(item) {
       notInCart = false;
     }
   }
-  if(missing) {
+  if(notInCart) {
     return('That item is not in your cart.')
   }
 }
