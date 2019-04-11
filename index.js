@@ -46,6 +46,7 @@ function total() {
   return total;
 }
 
+let removeItem = ""
 function removeFromCart(item) {
   for (let i = 0; getCart().length; i++)
   if (item === getCart()[i].itemName) {
