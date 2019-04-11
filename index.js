@@ -53,7 +53,7 @@ function removeFromCart(item) {
     return cart
   }
   if (removeItem) {
-    let index = getCart().indexOf
+    let index = getCart().indexOf(removeItem)
   }
   else {
     return `That item is not in your cart.`
